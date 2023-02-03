@@ -1,38 +1,7 @@
 # Directories #
-/build/
-target/
-.mvn/
- 
+target/*
+.idea/*
 # OS Files #
 .DS_Store
- 
-.DS_Store
- 
-# Thumbnails
-._*
-
-
-#######################################
-# IntelliJ specific files/directories #
-#######################################
-.out
-.idea/*
-!.idea/vcs.xml
-*.ipr
-*.iws
 *.iml
-*.log
-
-#######################################
-# Maven
-#######################################
 dependency-reduced-pom.xml
-
-
-#######################################
-# Docker
-#######################################
-hudi-integ-test/compose_env
-node_modules
-package-lock.json
-/.idea/
